@@ -12,39 +12,40 @@ const About = () => {
   return (
     <div className="about-container">
       <aside className="sidebar">
-        <h2>Titan-fit</h2>
-        <button className="menu-btn" onClick={() => navigate('/home')}>Home</button>
-        <button className="menu-btn" onClick={() => navigate('/services')}>Servicios</button>
+        <h2>Nexus DeFi</h2>
+        <button className="menu-btn" onClick={() => navigate('/home')}>Inicio</button>
+        <button className="menu-btn" onClick={() => navigate('/courses')}>Cursos</button>
         <button className="menu-btn" onClick={() => navigate('/contact')}>Contacto</button>
         <button className="menu-btn" onClick={logout}>Cerrar Sesión</button>
       </aside>
 
       <main className="home-main">
         <div className="home-content card">
-          <h1>Acerca de Titan-fit</h1>
+          <h1>Acerca de Nexus DeFi</h1>
 
           <section style={{ marginBottom: '20px' }}>
-            <h3>Historia de la comunidad</h3>
+            <h3>Nuestra Historia</h3>
             <p>
-              Titan-fit nació con la visión de unir a personas apasionadas por el bienestar físico y mental.
-              Desde nuestros inicios en 2020, hemos crecido como una comunidad comprometida con un estilo de vida saludable.
+              Nexus DeFi nació de la visión de democratizar el acceso al conocimiento sobre finanzas descentralizadas. Fundado en [Año de Fundación], nuestro centro educativo se estableció como un punto de encuentro para aquellos que buscan comprender y participar activamente en la revolución DeFi. Desde nuestros inicios, hemos crecido hasta convertirnos en una comunidad de aprendizaje vibrante y en constante expansión.
             </p>
           </section>
 
           <section style={{ marginBottom: '20px' }}>
-            <h3>Objetivo y valores</h3>
+            <h3>Misión y Visión</h3>
             <p>
-              Nuestro objetivo es fomentar el crecimiento personal a través del ejercicio, la disciplina y el apoyo comunitario.
-              Valoramos la constancia, la superación, el respeto y la inclusión.
+              <strong>Nuestra Misión:</strong> Empoderar a individuos con el conocimiento y las habilidades necesarias para navegar y prosperar en el ecosistema de las finanzas descentralizadas, fomentando la innovación y la adopción responsable.
+            </p>
+            <p>
+              <strong>Nuestra Visión:</strong> Ser el centro educativo líder en formación integral sobre DeFi, reconocido por la calidad de nuestros programas, la excelencia de nuestro equipo docente y el impacto positivo en la comunidad financiera global.
             </p>
           </section>
 
           <section>
-            <h3>Equipo organizador</h3>
+            <h3>Nuestro Equipo</h3>
             <p>
-              Contamos con un equipo de entrenadores certificados, nutricionistas y líderes de comunidad comprometidos con tu progreso.
-              Cada miembro trabaja para que Titan-fit sea más que un gimnasio: una familia.
+              Contamos con un equipo de instructores expertos, profesionales de la industria blockchain y entusiastas de DeFi apasionados por compartir su conocimiento. Nuestros docentes combinan experiencia práctica con una sólida base teórica para ofrecer una educación de primer nivel.
             </p>
+            
           </section>
         </div>
       </main>

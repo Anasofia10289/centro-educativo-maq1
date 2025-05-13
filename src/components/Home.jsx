@@ -12,20 +12,19 @@ const Home = () => {
   return (
     <div className="home-container">
       <aside className="sidebar">
-        <h2>Titan-fit</h2>
-        <button className="menu-btn" onClick={() => navigate('/services')}>Servicios</button>
+        <h2>Nexus DeFi</h2>
+        <button className="menu-btn" onClick={() => navigate('/services')}>Cursos</button>
         <button className="menu-btn" onClick={() => navigate('/contact')}>Contacto</button>
         <button className="menu-btn" onClick={() => navigate('/about')}>Acerca de</button>
         <button className="menu-btn" onClick={logout}>Cerrar Sesión</button>
       </aside>
       <main className="home-main">
         <div className="home-content">
-          <h1>¡Bienvenido a Titan-fit!</h1>
+          <h1>¡Bienvenido a Nexus DeFi!</h1>
           <ul>
-            <li><strong>Bienvenida personalizada:</strong> ¡Hola atleta! Prepárate para llevar tu entrenamiento al siguiente nivel.</li>
-            <li><strong>Actividades recientes:</strong> Nuevas rutinas de fuerza y clases de HIIT añadidas esta semana.</li>
-            <li><strong>Foros destacados:</strong> Únete al debate sobre nutrición post-entreno en nuestra comunidad.</li>
-            <li><strong>Eventos próximos:</strong> Competencia interna de levantamiento – ¡Inscríbete antes del viernes!</li>
+            <li><strong>Bienvenida personalizada:</strong> ¡Hola futuro experto en DeFi! Prepárate para dominar el mundo de las finanzas descentralizadas.</li>
+            <li><strong>Últimas noticias y anuncios:</strong> Descubre nuestro nuevo curso avanzado sobre Smart Contracts y el calendario de eventos de la comunidad.</li>
+            <li><strong>Acceso directo a clases y material de estudio:</strong> Navega fácilmente a tus módulos de aprendizaje y recursos exclusivos.</li>
           </ul>
         </div>
       </main>
