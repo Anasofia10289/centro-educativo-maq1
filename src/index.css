@@ -125,6 +125,48 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
+.about-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+}
 
+.sidebar {
+  width: 220px;
+  background-color: #ffffff;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menu-btn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.home-main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  max-width: 700px;
+  width: 90%;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 
