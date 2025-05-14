@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <aside className="sidebar">
-        <h2>Nexus DeFi</h2>
+        <h2>Universidad de Laureles</h2>
         <button className="menu-btn" onClick={() => navigate('/services')}>Cursos</button>
         <button className="menu-btn" onClick={() => navigate('/contact')}>Contacto</button>
         <button className="menu-btn" onClick={() => navigate('/about')}>Acerca de</button>
@@ -20,10 +20,9 @@ const Home = () => {
       </aside>
       <main className="home-main">
         <div className="home-content">
-          <h1>¡Bienvenido a Nexus DeFi!</h1>
+          <h1>¡Bienvenido a la Universidad de Laureles!</h1>
           <ul>
-            <li><strong>Bienvenida personalizada:</strong> ¡Hola futuro experto en DeFi! Prepárate para dominar el mundo de las finanzas descentralizadas.</li>
-            <li><strong>Últimas noticias y anuncios:</strong> Descubre nuestro nuevo curso avanzado sobre Smart Contracts y el calendario de eventos de la comunidad.</li>
+            <li><strong>Bienvenida personalizada:</strong> ¡Hola, Bienvenido Estudiante. ¿Estas listo para comenzar tu nuevo camino y ser el mejor en lo que mas te gusta?!</li>
             <li><strong>Acceso directo a clases y material de estudio:</strong> Navega fácilmente a tus módulos de aprendizaje y recursos exclusivos.</li>
           </ul>
         </div>

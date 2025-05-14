@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div className="home-container">
       <aside className="sidebar">
-        <h2>Nexus DeFi</h2>
+        <h2>Universidad de Laureles</h2>
         <button className="menu-btn" onClick={() => navigate('/home')}>Inicio</button>
         <button className="menu-btn" onClick={() => navigate('/services')}>Cursos</button>
         <button className="menu-btn" onClick={() => navigate('/about')}>Acerca de</button>
@@ -54,8 +54,8 @@ const Contact = () => {
           <div style={{ marginTop: '30px' }}>
             <h3>Información de Contacto</h3>
             <p><strong>Sede Principal:</strong> {nexusDefiAddress}</p>
-            <p><strong>Teléfono:</strong> +57 1 800 NEXUS (63987)</p>
-            <p><strong>Email:</strong> info@nexusdefi.edu</p>
+            <p><strong>Teléfono:</strong> +57 3456789</p>
+            <p><strong>Email:</strong> info@nexusdefi.edu.co</p>
           </div>
 
           <div className="section-block" style={{ marginTop: '30px' }}>
