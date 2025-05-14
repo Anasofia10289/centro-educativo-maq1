@@ -37,7 +37,7 @@ const Contact = () => {
       <aside className="sidebar">
         <h2>Nexus DeFi</h2>
         <button className="menu-btn" onClick={() => navigate('/home')}>Inicio</button>
-        <button className="menu-btn" onClick={() => navigate('/courses')}>Cursos</button>
+        <button className="menu-btn" onClick={() => navigate('/services')}>Cursos</button>
         <button className="menu-btn" onClick={() => navigate('/about')}>Acerca de</button>
         <button className="menu-btn" onClick={logout}>Cerrar Sesión</button>
       </aside>
